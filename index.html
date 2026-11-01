@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جلي بلاط إتقان | جلي وتلميع البلاط والرخام بالرياض</title>
+    <meta name="description"
+        content="إتقان الرخام لخدمات جلي وتلميع البلاط والرخام في الرياض. نهتم بتحسين مظهر الأرضيات ومعالجة آثار الاستخدام وفقًا لنوع السطح وحالته. تواصل معنا للاستفسار وطلب الخدمة.">
+    <meta name="keywords"
+        content="جلي بلاط الرياض, جلي بلاط بالرياض, جلي رخام في الرياض, جلي رخام بالرياض, جلي وتلميع الرخام, جلي وتلميع البلاط, شركة جلي بلاط بالرياض, شركة جلي رخام بالرياض, تلميع الأرضيات">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="جلي بلاط إتقان">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="جلي بلاط إتقان | جلي وتلميع البلاط والرخام بالرياض">
+    <meta property="og:description"
+        content="خدمات جلي وتلميع البلاط والرخام في الرياض، مع اختيار طريقة العمل المناسبة لنوع الأرضية وحالتها.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_SA">
+    <meta property="og:image" content="images/img (1).webp">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
+    <link rel="canonical" href="https://www.itqan-marble.sa/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Local Business Schema for SEO -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "جلي بلاط إتقان",
+  "image": "images/img (1).webp",
+  "telephone": "+966590145501",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "الرياض",
+    "addressCountry": "SA"
+  },
+  "areaServed": "الرياض",
+  "priceRange": "$$",
+  "description": "خدمات جلي وتلميع البلاط والرخام في الرياض"
+}
+</script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+
+        /* ===== Fluid, responsive typography (the only fix requested) ===== */
+        :root {
+            --fs-h1: clamp(1.7rem, 1.05rem + 3.1vw, 3.25rem);
+            --fs-h2: clamp(1.35rem, 1rem + 1.7vw, 2.5rem);
+            --fs-h3: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
+            --fs-quote: clamp(1.1rem, 0.85rem + 1.2vw, 1.6rem);
+            --fs-body: clamp(0.9rem, 0.82rem + 0.3vw, 1.0625rem);
+        }
+        .text-fluid-h1 { font-size: var(--fs-h1); line-height: 1.18; }
+        .text-fluid-h2 { font-size: var(--fs-h2); line-height: 1.25; }
+        .text-fluid-h3 { font-size: var(--fs-h3); line-height: 1.35; }
+        .text-fluid-quote { font-size: var(--fs-quote); line-height: 1.6; }
+        .text-fluid-body { font-size: var(--fs-body); line-height: 1.85; }
+
+        /* ===== Theme-based button/logo animations ===== */
+        @keyframes glowGold {
+            0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-gold) 0%, transparent); }
+            50%      { box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-gold) 22%, transparent),
+                                   0 0 18px 2px color-mix(in srgb, var(--color-gold) 45%, transparent); }
+        }
+        .btn-glow { animation: glowGold 2.2s ease-in-out infinite; }
+
+        @keyframes glowWhatsapp {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+            50%      { box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.2),
+                                   0 0 18px 2px rgba(37, 211, 102, 0.5); }
+        }
+        .btn-glow-whatsapp { animation: glowWhatsapp 2.2s ease-in-out infinite; }
+
+        @keyframes shimmerSweep {
+            0%   { transform: translateX(-120%) skewX(-15deg); }
+            100% { transform: translateX(220%) skewX(-15deg); }
+        }
+        .btn-shimmer { position: relative; overflow: hidden; }
+        .btn-shimmer::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 35%; height: 100%;
+            background: linear-gradient(120deg,
+                transparent,
+                color-mix(in srgb, var(--color-gold-light) 55%, white),
+                transparent);
+            animation: shimmerSweep 3.2s ease-in-out infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes logoGlow {
+            0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-gold) 0%, transparent); }
+            50%      { box-shadow: 0 0 14px 2px color-mix(in srgb, var(--color-gold) 35%, transparent); }
+        }
+        .logo-glow { animation: logoGlow 3s ease-in-out infinite; }
+
+        /* Pulsing ring for the main floating action button */
+        @keyframes pulseRing {
+            0%   { transform: scale(0.9); opacity: 0.55; }
+            70%  { transform: scale(1.85); opacity: 0; }
+            100% { transform: scale(1.85); opacity: 0; }
+        }
+        .fab-ring {
+            position: absolute;
+            inset: 0;
+            border-radius: 9999px;
+            background: color-mix(in srgb, var(--color-gold) 55%, transparent);
+            animation: pulseRing 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Hero claim chips entrance */
+        @keyframes claimFadeUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .claim-chip {
+            animation: claimFadeUp 0.6s ease forwards;
+            opacity: 0;
+        }
+        .claim-chip:nth-child(1) { animation-delay: .1s; }
+        .claim-chip:nth-child(2) { animation-delay: .25s; }
+        .claim-chip:nth-child(3) { animation-delay: .4s; }
+        .claim-chip:nth-child(4) { animation-delay: .55s; }
+    </style>
+</head>
+
+<body class="font-tajawal bg-marble-white text-ink antialiased overflow-x-hidden">
+
+    <!-- ================= HEADER ================= -->
+    <header class="sticky top-0 z-50">
+        <!-- Top utility bar -->
+        <div class=" md:block bg-charcoal text-marble-beige/80 text-sm">
+            <div class="max-w-7xl mx-auto px-6 flex items-center justify-between py-2">
+                <div class="flex items-center gap-6">
+                    <a href="tel:+966590145501" class="flex items-center gap-2 hover:text-gold transition">
+                        <i data-lucide="phone" class="w-4 h-4"></i>
+                        <span dir="ltr">+966590145501</span>
+                    </a>
+             
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="https://wa.me/966590145501" target="_blank" aria-label="واتساب"
+                        class="hover:text-gold transition flex flex-row gap-2"><i data-lucide="message-circle" class="w-4 h-4"></i><span dir="ltr">+966590145501</span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main nav (sticky to top) -->
+        <div class="bg-marble-white/95 backdrop-blur border-b border-ink/5 sticky top-0 z-50">
+            <nav class="max-w-7xl mx-auto px-6 flex items-center justify-between py-4">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="logo-glow w-11 h-11 rounded-xl bg-gradient-to-br from-charcoal to-charcoal-light flex items-center justify-center border border-gold/30">
+                        <i data-lucide="layout-grid" class="w-6 h-6 text-gold"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold text-charcoal leading-none">جلي بلاط إتقان</h2>
+                        <p class="text-xs text-ink-muted mt-1">جلي وتلميع البلاط والرخام - الرياض</p>
+                    </div>
+                </a>
+
+                <ul class="hidden lg:flex items-center gap-8 text-ink font-medium">
+                    <li><a href="index.html" class="text-gold transition">الرئيسية</a></li>
+                    <li><a href="about.html" class="hover:text-gold transition">من نحن</a></li>
+                    <li><a href="services.html" class="hover:text-gold transition">خدماتنا</a></li>
+                    <li><a href="blog.html" class="hover:text-gold transition">المدونة</a></li>
+                </ul>
+
+                <div class="flex items-center gap-3">
+                    <a href="https://wa.me/966590145501" target="_blank"
+                        class="btn-glow-whatsapp hidden md:inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white px-5 py-2.5 rounded-lg font-semibold transition">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                        تواصل عبر واتساب
+                    </a>
+                    <button id="mobile-menu-btn" aria-label="فتح القائمة"
+                        class="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg border border-ink/10">
+                        <i data-lucide="menu" class="w-5 h-5 text-charcoal"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile menu (toggled via JS later) -->
+            <div id="mobile-menu" class="hidden lg:hidden border-t border-ink/5 bg-marble-white px-6 py-4">
+                <ul class="flex flex-col gap-4 text-ink font-medium">
+                    <li><a href="index.html" class="block hover:text-gold transition">الرئيسية</a></li>
+                    <li><a href="about.html" class="block hover:text-gold transition">من نحن</a></li>
+                    <li><a href="services.html" class="block hover:text-gold transition">خدماتنا</a></li>
+                    <li><a href="blog.html" class="block hover:text-gold transition">المدونة</a></li>
+                    <li><a href="https://wa.me/966590145501" target="_blank"
+                            class="btn-glow-whatsapp block text-center bg-gold text-white py-3 rounded-lg font-semibold">تواصل
+                            عبر واتساب</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="relative bg-charcoal overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="images/img (3).webp" alt="جلي وتلميع رخام أرضية فيلا في الرياض"
+                    class="w-full h-full object-cover opacity-30">
+                <div class="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/90 to-charcoal/70"></div>
+            </div>
+
+            <div class="relative max-w-7xl mx-auto px-6 pt-20 pb-24 md:pt-28 md:pb-32">
+                <div class="max-w-3xl">
+                    <span
+                        class="inline-flex items-center gap-2 bg-gold/10 text-gold border border-gold/30 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
+                        <i data-lucide="sparkles" class="w-4 h-4"></i>
+                        شركة جلي وتلميع البلاط والرخام في الرياض
+                    </span>
+                    <h1 class="text-fluid-h1 font-black text-white mb-6">
+                        جلي وتلميع البلاط والرخام
+                        <span class="text-gold"> في الرياض</span>
+                    </h1>
+                    <p class="text-fluid-body text-marble-beige/90 mb-8">
+                        نقدم خدمات جلي وتلميع البلاط والرخام في الرياض، مع مراعاة اختلاف أنواع الأرضيات ودرجة التلف وآثار الاستخدام. تواصل معنا لشرح حالة السطح وتحديد الخدمة المناسبة.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-4 mb-8">
+                        <a href="tel:+966590145501"
+                            class="btn-glow btn-shimmer inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white px-7 py-3.5 rounded-lg font-bold transition">
+                            اتصل بنا الآن
+                            <i data-lucide="arrow-left" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://wa.me/966590145501" target="_blank"
+                            class="btn-glow-whatsapp inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-7 py-3.5 rounded-lg font-bold transition">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                            تواصل عبر واتساب
+                        </a>
+                    </div>
+
+                    <!-- ===== Trust claims below the hero buttons ===== -->
+                    <div class="flex flex-wrap items-center gap-3 mb-12">
+                        <span class="claim-chip inline-flex items-center  bg-white/5 border border-gold/30 text-marble-beige text-sm px-4 py-2 rounded-full">
+                            <i data-lucide="check-circle" class="w-4 h-4 text-gold"></i>
+                            ضمان على الجودة
+                        </span>
+                        <span class="claim-chip inline-flex items-center gap-1.5 bg-white/5 border border-gold/30 text-marble-beige text-sm px-4 py-2 rounded-full">
+                            <i data-lucide="users" class="w-4 h-4 text-gold"></i>
+                            فريق محترف ومدرب
+                        </span>
+                        <span class="claim-chip inline-flex items-center gap-1.5 bg-white/5 border border-gold/30 text-marble-beige text-sm px-4 py-2 rounded-full">
+                            <i data-lucide="zap" class="w-4 h-4 text-gold"></i>
+                            استجابة سريعة لطلبك
+                        </span>
+                        <span class="claim-chip inline-flex items-center gap-1.5 bg-white/5 border border-gold/30 text-marble-beige text-sm px-4 py-2 rounded-full">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-gold"></i>
+                            خدمة شاملة داخل الرياض
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-white/10 pt-8">
+                        <div>
+                            <p class="text-2xl md:text-3xl font-black text-gold">دقة</p>
+                            <p class="text-marble-beige/70 text-sm mt-1">عناية بالتفاصيل</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl md:text-3xl font-black text-gold">وضوح</p>
+                            <p class="text-marble-beige/70 text-sm mt-1">خطوات عمل واضحة</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl md:text-3xl font-black text-gold">التزام</p>
+                            <p class="text-marble-beige/70 text-sm mt-1">اهتمام بجودة التنفيذ</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl md:text-3xl font-black text-gold">تغطية</p>
+                            <p class="text-marble-beige/70 text-sm mt-1">خدمة في الرياض</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT SNIPPET ================= -->
+        <section class="py-20 bg-marble-white">
+            <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="images/img (5).webp" alt="فريق إتقان الرخام أثناء تلميع أرضية رخام فاخرة" loading="lazy"
+                        class="rounded-2xl w-full h-[420px] object-cover shadow-xl">
+                    <div
+                        class="absolute -bottom-6 -right-6 bg-charcoal text-white rounded-2xl p-5 shadow-lg hidden sm:block">
+                        <p class="text-3xl font-black text-gold">موثوق</p>
+                        <p class="text-sm text-marble-beige/80">خدمات في الرياض</p>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-gold font-semibold flex items-center gap-2 mb-3">
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                        تعرف علينا
+                    </span>
+                    <h2 class="text-fluid-h2 font-black text-charcoal mb-5">
+                        عناية متخصصة بالبلاط والرخام تبدأ بفهم حالة الأرضية
+                    </h2>
+                    <p class="text-fluid-body text-ink-muted mb-4">
+                        إتقان الرخام يقدم خدمات جلي وتلميع البلاط والرخام في الرياض. نراعي نوع الخامة وحالة الأرضية قبل اختيار طريقة العمل، سواء كانت الأرضية في منزل أو في مساحة تجارية.
+                    </p>
+                    <p class="text-fluid-body text-ink-muted mb-8">
+                        نوضح للعميل طبيعة العمل والخطوات المناسبة قبل البدء، لأن طريقة العناية تختلف باختلاف نوع البلاط أو الرخام وحالة السطح.
+                    </p>
+                    <a href="about.html"
+                        class="inline-flex items-center gap-2 text-charcoal font-bold border-b-2 border-gold pb-1 hover:text-gold transition">
+                        تعرف على قصتنا الكاملة
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SERVICES ================= -->
+        <section class="py-20 bg-marble-beige/40">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <span class="text-gold font-semibold flex items-center justify-center gap-2 mb-3">
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                        خدماتنا
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                    </span>
+                    <h2 class="text-fluid-h2 font-black text-charcoal mb-4">خدمات جلي وتلميع البلاط والرخام في الرياض</h2>
+                    <p class="text-fluid-body text-ink-muted">نركز على تحسين مظهر الأرضيات ومعالجة آثار الاستخدام بما يتناسب مع نوع السطح.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-charcoal flex items-center justify-center mb-5 group-hover:bg-gold transition">
+                            <i data-lucide="sparkles" class="w-7 h-7 text-gold group-hover:text-white transition"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">جلي وتلميع الرخام</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed mb-4">نعيد لمعان الرخام الباهت أو المخدوش
+                            بمعدات صناعية متدرجة حتى نصل لسطح يعكس الضوء بانتظام كامل.</p>
+                        <a href="services.html"
+                            class="text-gold font-semibold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all">اقرأ
+                            المزيد <i data-lucide="arrow-left" class="w-4 h-4"></i></a>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-charcoal flex items-center justify-center mb-5 group-hover:bg-gold transition">
+                            <i data-lucide="layout-grid"
+                                class="w-7 h-7 text-gold group-hover:text-white transition"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">جلي وتلميع البلاط</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed mb-4">العناية بأرضيات البلاط ومعالجة آثار الاستخدام والبهتان، مع تحديد طريقة العمل وفق نوع البلاط وحالته.</p>
+                        <a href="services.html"
+                            class="text-gold font-semibold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all">اقرأ
+                            المزيد <i data-lucide="arrow-left" class="w-4 h-4"></i></a>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-charcoal flex items-center justify-center mb-5 group-hover:bg-gold transition">
+                            <i data-lucide="move-vertical"
+                                class="w-7 h-7 text-gold group-hover:text-white transition"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">جلي وتلميع أرضيات الرخام</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed mb-4">نعمل على تحسين مظهر أرضيات الرخام ومعالجة الخدوش والبهتان بحسب حالة السطح ونوع الرخام.</p>
+                        <a href="services.html"
+                            class="text-gold font-semibold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all">اقرأ
+                            المزيد <i data-lucide="arrow-left" class="w-4 h-4"></i></a>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-charcoal flex items-center justify-center mb-5 group-hover:bg-gold transition">
+                            <i data-lucide="shield-check"
+                                class="w-7 h-7 text-gold group-hover:text-white transition"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">معالجة آثار الاستخدام على الأرضيات</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed mb-4">نقيّم البقع وآثار الاستخدام أولًا، ثم نحدد إمكانية معالجتها والطريقة الملائمة دون افتراض أن جميع البقع قابلة للإزالة.</p>
+                        <a href="services.html"
+                            class="text-gold font-semibold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all">اقرأ
+                            المزيد <i data-lucide="arrow-left" class="w-4 h-4"></i></a>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-charcoal flex items-center justify-center mb-5 group-hover:bg-gold transition">
+                            <i data-lucide="ruler" class="w-7 h-7 text-gold group-hover:text-white transition"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">العناية بالدرج والمداخل</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed mb-4">نهتم بمظهر الدرج والمداخل المصنوعة من الرخام أو البلاط، مع مراعاة الحواف والزوايا وطبيعة الاستخدام.</p>
+                        <a href="services.html"
+                            class="text-gold font-semibold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all">اقرأ
+                            المزيد <i data-lucide="arrow-left" class="w-4 h-4"></i></a>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-charcoal flex items-center justify-center mb-5 group-hover:bg-gold transition">
+                            <i data-lucide="droplets" class="w-7 h-7 text-gold group-hover:text-white transition"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">خدمة للأرضيات المنزلية والتجارية</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed mb-4">نقدم خدمات جلي وتلميع الأرضيات للمنازل والمساحات التجارية في الرياض، بعد معرفة نوع السطح ومساحة العمل.</p>
+                        <a href="services.html"
+                            class="text-gold font-semibold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all">اقرأ
+                            المزيد <i data-lucide="arrow-left" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <div class="text-center mt-12">
+                    <a href="services.html"
+                        class="inline-flex items-center gap-2 bg-charcoal hover:bg-charcoal/90 text-white px-8 py-3.5 rounded-lg font-bold transition">
+                        عرض جميع الخدمات
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= COMMITMENTS ================= -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <span class="text-gold font-semibold flex items-center justify-center gap-2 mb-3">
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                        التزامنا تجاهك
+                    </span>
+                    <h2 class="text-fluid-h2 font-black text-charcoal">ما نهتم به في كل عملية جلي وتلميع</h2>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center p-6 rounded-2xl bg-marble-beige/30">
+                        <div class="w-16 h-16 rounded-full bg-charcoal flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="map-pin" class="w-7 h-7 text-gold"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">خدمة داخل الرياض</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed">نركز على خدمة العملاء في الرياض وفهم احتياجات الأرضيات في المنازل والمساحات التجارية.</p>
+                    </div>
+                    <div class="text-center p-6 rounded-2xl bg-marble-beige/30">
+                        <div class="w-16 h-16 rounded-full bg-charcoal flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="leaf" class="w-7 h-7 text-gold"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">اختيار الطريقة المناسبة</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed">تختلف المواد وطرق المعالجة حسب نوع الرخام أو البلاط؛ لذلك ينبغي اختيارها بعناية لتجنب الإضرار بالسطح.</p>
+                    </div>
+                    <div class="text-center p-6 rounded-2xl bg-marble-beige/30">
+                        <div class="w-16 h-16 rounded-full bg-charcoal flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="wrench" class="w-7 h-7 text-gold"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">اهتمام بتفاصيل السطح</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed">نراعي حالة الأرضية وآثار الاستخدام والفواصل والحواف عند تحديد خطوات العمل.</p>
+                    </div>
+                    <div class="text-center p-6 rounded-2xl bg-marble-beige/30">
+                        <div class="w-16 h-16 rounded-full bg-charcoal flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="gem" class="w-7 h-7 text-gold"></i>
+                        </div>
+                        <h3 class="text-fluid-h3 font-bold text-charcoal mb-2">خطوات واضحة قبل التنفيذ</h3>
+                        <p class="text-ink-muted text-sm leading-relaxed">نشرح للعميل نطاق العمل المتوقع قبل البدء، ونراعي طبيعة السطح أثناء التنفيذ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= GALLERY ================= -->
+        <section class="py-20 bg-marble-beige/40">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <span class="text-gold font-semibold flex items-center justify-center gap-2 mb-3">
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                        من أرشيف مشاريعنا
+                    </span>
+                    <h2 class="text-fluid-h2 font-black text-charcoal">صور من أعمال جلي وتلميع البلاط والرخام
+                    </h2>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (1).webp" alt="جلي رخام أرضية صالة فيلا في الرياض" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (2).webp" alt="تلميع بلاط مدخل منزل بالرياض" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (4).webp" alt="جلي رخام درج فلل الرياض" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (6).webp" alt="تلميع أرضية رخام بعد الجلي" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (7).webp" alt="جلي بلاط صالة استقبال فندقية" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (8).webp" alt="تلميع رخام مدخل مبنى تجاري بالرياض" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (9).webp" alt="جلي وتلميع أرضية رخام فاخرة" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (10).webp" alt="نتيجة جلي بلاط سطح قبل وبعد" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="relative overflow-hidden rounded-2xl group h-64">
+                        <img src="images/img (11).webp" alt="تلميع سيراميك وبورسلان أرضية" loading="lazy"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                </div>
+                <div class="text-center mt-10">
+                    <a href="about.html"
+                        class="inline-flex items-center gap-2 text-charcoal font-bold border-b-2 border-gold pb-1 hover:text-gold transition">
+                        شاهد المزيد من أعمالنا
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= VIDEOS ================= -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <span class="text-gold font-semibold flex items-center justify-center gap-2 mb-3">
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                        من أعمالنا
+                    </span>
+                    <h2 class="text-fluid-h2 font-black text-charcoal">شاهد جودة التنفيذ بنفسك</h2>
+                    <p class="text-fluid-body text-ink-muted mt-3">شاهد مقاطع توضح أعمال جلي وتلميع الأرضيات</p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="relative rounded-2xl overflow-hidden bg-charcoal aspect-video">
+                        <video class="w-full h-full object-cover" controls preload="metadata" playsinline>
+                            <source src="vedios/vid (1).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden bg-charcoal aspect-video">
+                        <video class="w-full h-full object-cover" controls preload="metadata" playsinline>
+                            <source src="vedios/vid (2).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden bg-charcoal aspect-video">
+                        <video class="w-full h-full object-cover" controls preload="metadata" playsinline>
+                            <source src="vedios/vid (3).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden bg-charcoal aspect-video">
+                        <video class="w-full h-full object-cover" controls preload="metadata" playsinline>
+                            <source src="vedios/vid (4).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden bg-charcoal aspect-video">
+                        <video class="w-full h-full object-cover" controls preload="metadata" playsinline>
+                            <source src="vedios/vid (5).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden bg-charcoal aspect-video">
+                        <video class="w-full h-full object-cover" controls preload="metadata" playsinline>
+                            <source src="vedios/vid (6).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TESTIMONIAL ================= -->
+        <section class="py-20 bg-charcoal">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <i data-lucide="quote" class="w-12 h-12 text-gold mx-auto mb-6"></i>
+                <div id="testimonial-slider" class="relative">
+                    <div class="testimonial-slide" data-name="طريقة العمل" data-location="تقييم السطح قبل التنفيذ">
+                        <p class="text-fluid-quote text-white mb-6">
+                            "تختلف نتيجة جلي وتلميع الأرضيات بحسب نوع الخامة وحالتها قبل العمل. لذلك تبدأ الخدمة بتقييم السطح وتوضيح الخطوات المناسبة."
+                        </p>
+                        <p class="text-gold font-bold">طريقة العمل</p>
+                        <p class="text-marble-beige/60 text-sm">تقييم السطح قبل التنفيذ</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center gap-4 mt-8">
+                    <button id="testimonial-prev" aria-label="السابق"
+                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-gold hover:border-gold transition">
+                        <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                    </button>
+                    <button id="testimonial-next" aria-label="التالي"
+                        class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-gold hover:border-gold transition">
+                        <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FAQ ================= -->
+        <section class="py-20 bg-marble-beige/40">
+            <div class="max-w-3xl mx-auto px-6">
+                <div class="text-center mb-12">
+                    <span class="text-gold font-semibold flex items-center justify-center gap-2 mb-3">
+                        <span class="w-8 h-0.5 bg-gold"></span>
+                        قبل أن تسأل
+                    </span>
+                    <h2 class="text-fluid-h2 font-black text-charcoal">الأسئلة الأكثر شيوعًا</h2>
+                </div>
+
+                <div class="space-y-4" id="faq-list">
+                    <div class="faq-item bg-white rounded-xl shadow-sm overflow-hidden">
+                        <button class="faq-trigger w-full flex items-center justify-between gap-4 p-5 text-right">
+                            <span class="font-bold text-charcoal">كيف يتم تحديد طريقة جلي الأرضية؟</span>
+                            <i data-lucide="minus" class="w-5 h-5 text-gold faq-icon flex-shrink-0"></i>
+                        </button>
+                        <div class="faq-content px-5 pb-5 text-ink-muted leading-relaxed">
+                            تعتمد الطريقة على نوع الأرضية، مثل الرخام أو البلاط، وعلى حالتها ودرجة الخدوش أو البهتان. لذلك من المهم فحص السطح قبل تحديد خطوات العمل.
+                        </div>
+                    </div>
+
+                    <div class="faq-item bg-white rounded-xl shadow-sm overflow-hidden">
+                        <button class="faq-trigger w-full flex items-center justify-between gap-4 p-5 text-right">
+                            <span class="font-bold text-charcoal">هل تختلف طريقة جلي الرخام عن جلي البلاط؟</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-gold faq-icon flex-shrink-0"></i>
+                        </button>
+                        <div class="faq-content hidden px-5 pb-5 text-ink-muted leading-relaxed">
+                            نعم، تختلف طريقة التعامل مع الرخام عن أنواع البلاط الأخرى، كما قد تختلف من خامة إلى أخرى. اختيار الطريقة المناسبة يساعد على تجنب إتلاف السطح.
+                        </div>
+                    </div>
+
+                    <div class="faq-item bg-white rounded-xl shadow-sm overflow-hidden">
+                        <button class="faq-trigger w-full flex items-center justify-between gap-4 p-5 text-right">
+                            <span class="font-bold text-charcoal">هل يمكن جلي وتلميع الأرضيات القديمة؟</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-gold faq-icon flex-shrink-0"></i>
+                        </button>
+                        <div class="faq-content hidden px-5 pb-5 text-ink-muted leading-relaxed">
+                            يمكن تقييم كثير من الأرضيات القديمة لتحديد إمكانية جليها أو تلميعها. وتعتمد النتيجة المتوقعة على نوع الخامة وعمق التلف وحالة السطح.
+                        </div>
+                    </div>
+
+                    <div class="faq-item bg-white rounded-xl shadow-sm overflow-hidden">
+                        <button class="faq-trigger w-full flex items-center justify-between gap-4 p-5 text-right">
+                            <span class="font-bold text-charcoal">هل يمكن إزالة جميع البقع والخدوش؟</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-gold faq-icon flex-shrink-0"></i>
+                        </button>
+                        <div class="faq-content hidden px-5 pb-5 text-ink-muted leading-relaxed">
+                            ليست كل البقع أو الخدوش قابلة للإزالة بالكامل؛ فذلك يعتمد على سببها وعمقها ونوع الأرضية. يمكن تقييم الحالة وتوضيح النتيجة المتوقعة قبل بدء العمل.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CTA BANNER ================= -->
+        <section class="py-16 bg-gold">
+            <div class="max-w-5xl mx-auto px-6 text-center">
+                <h2 class="text-fluid-h2 font-black text-charcoal mb-3">هل تحتاج أرضيتك إلى جلي أو تلميع؟</h2>
+                <p class="text-fluid-body text-charcoal/80 mb-8">تواصل معنا وشاركنا نوع الأرضية وحالتها في الرياض، لنساعدك في معرفة الخدمة المناسبة والخطوة التالية.</p>
+                <div class="flex flex-wrap items-center justify-center gap-4">
+                    <a href="tel:+966590145501"
+                        class="btn-glow inline-flex items-center gap-2 bg-charcoal text-white px-8 py-3.5 rounded-lg font-bold hover:bg-charcoal/90 transition">
+                        اتصل بنا الآن
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    </a>
+                    <a href="https://wa.me/966590145501" target="_blank"
+                        class="btn-glow-whatsapp inline-flex items-center gap-2 bg-white text-charcoal px-8 py-3.5 rounded-lg font-bold hover:bg-white/90 transition">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                        تواصل واتساب
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-charcoal text-marble-beige/80 pt-16 pb-6">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-white/10 to-white/5 flex items-center justify-center border border-gold/30">
+                        <i data-lucide="layout-grid" class="w-6 h-6 text-gold"></i>
+                    </div>
+                    <h3 class="text-white font-bold text-lg">جلي بلاط إتقان</h3>
+                </div>
+                <p class="text-sm leading-relaxed max-w-sm">
+                    إتقان الرخام لخدمات جلي وتلميع البلاط والرخام في الرياض. تواصل معنا للاستفسار عن الخدمة المناسبة لأرضيتك.
+                </p>
+                <div class="flex items-center gap-3 mt-5">
+
+                    <!-- WhatsApp (Lucide - this one is fine) -->
+                    <a href="https://wa.me/966590145501" target="_blank" aria-label="واتساب"
+                        class="btn-glow-whatsapp w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    </a>
+
+                    <!-- Instagram (inline SVG) -->
+                    <a href="#" aria-label="انستغرام"
+                        class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                        </svg>
+                    </a>
+
+                    <!-- X / Twitter (inline SVG) -->
+                    <a href="#" aria-label="تويتر"
+                        class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.1-9.3L1 2h7.1l4.9 6 5.9-6zm-1.2 h1.9L7.3 4H5.3l12.4 16z" />
+                        </svg>
+                    </a>
+
+                    <!-- Facebook (inline SVG) -->
+                    <a href="#" aria-label="فيسبوك"
+                        class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6v1.9h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-4">تصفح سريع</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="index.html" class="hover:text-gold transition">الرئيسية</a></li>
+                    <li><a href="about.html" class="hover:text-gold transition">من نحن</a></li>
+                    <li><a href="services.html" class="hover:text-gold transition">خدماتنا</a></li>
+                    <li><a href="blog.html" class="hover:text-gold transition">المدونة</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-4">تواصل مباشر</h4>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4 text-gold"></i> <span
+                            dir="ltr">966590145501+</span></li>
+                    <li class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-gold"></i> الرياض،
+                        المملكة العربية السعودية</li>
+                    <li class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4 text-gold"></i>
+                        marbalpolishing804@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-6 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-marble-beige/50">
+            <p>© 2026 جلي بلاط إتقان. جميع الحقوق محفوظة.</p>
+            <p>جلي بلاط - جلي رخام - تلميع الأرضيات - الرياض</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <!-- ================= FLOATING ACTION BUTTON ================= -->
+    <div id="fab-container" class="fixed bottom-6 right-6 z-50 flex flex-col-reverse items-center gap-3">
+
+        <!-- Main Toggle Button (animated) -->
+        <button id="fab-toggle" aria-label="فتح خيارات التواصل" aria-expanded="false"
+            class="relative w-14 h-14 bg-gold rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-all duration-300">
+            <span class="fab-ring"></span>
+            <i data-lucide="message-square-text" id="fab-icon"
+                class="relative z-10 w-7 h-7 text-white transition-transform duration-300 pointer-events-none"></i>
+        </button>
+
+        <!-- Sub Button: Direct Call -->
+        <a href="tel:+966590145501" aria-label="اتصل بنا مباشرة"
+            class="fab-option btn-glow w-12 h-12 bg-charcoal rounded-full flex items-center justify-center shadow-lg opacity-0 scale-0 translate-y-4 pointer-events-none transition-all duration-300 ease-out">
+            <i data-lucide="phone" class="w-5 h-5 text-gold"></i>
+        </a>
+
+        <!-- Sub Button: WhatsApp -->
+        <a href="https://wa.me/966590145501" target="_blank" aria-label="تواصل عبر واتساب"
+            class="fab-option btn-glow-whatsapp w-12 h-12 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg opacity-0 scale-0 translate-y-4 pointer-events-none transition-all duration-300 ease-out">
+            <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
+        </a>
+
+    </div>
+    <!-- Lucide Icons CDN (createIcons() call will be added in home.js next) -->
+    <!-- <script src="https://unpkg.com/lucide@latest"></script> -->
+    <script src="js/lucide.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>

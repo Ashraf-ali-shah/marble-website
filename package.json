@@ -1,0 +1,21 @@
+{
+  "name": "marble-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./input.css -o ./style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "dependencies": {
+    "lucide": "^1.62.0"
+  }
+}
